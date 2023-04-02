@@ -1,0 +1,11 @@
+<model-viewer src="tes2t.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.05" environment-image="aircraft_workshop_01_1k.hdr" shadow-softness="0.54" camera-orbit="-153.6deg 51.49deg 25.44m" field-of-view="30deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
