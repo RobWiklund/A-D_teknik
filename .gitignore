@@ -1,1 +1,3 @@
 .vs/
+**/iot_configs.h
+iot_configs.h
